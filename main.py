@@ -235,7 +235,7 @@ async def handle_tool_calls(tool_calls, message: Message):
 @dp.message(Command("start"))
 async def start_handler(message: Message):
     await message.answer(
-        "👋 Welcome! I'm an enhanced Groq-powered LLaMA3 bot.\n\n"
+        "👋 Welcome! I'm an enhanced Groq-powered LLaMA3 bot made by Arnab ♡.\n\n"
         "🔧 **New Features:**\n"
         "• 🔍 I can search for relevant links\n"
         "• 📚 I can recommend books on topics\n"
